@@ -1,5 +1,6 @@
 #Mac OS X files
 .DS_Store
+.gitignore
 
 #VIM leave-behinds
 *.swp
