@@ -1,2 +1,8 @@
+#Mac OS X files
 .DS_Store
-.mysqlsettings.php.swp
+
+#VIM leave-behinds
+*.swp
+
+#database settings
+mysqlsettings.php
