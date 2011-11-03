@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	if($_SESSION['verified'] == NULL || ($_SESSION['verified'] == false)) {
-		session_destory();	
+		session_destroy();	
 		header('Location: signin.php');
 	}	
 	
